@@ -3,17 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <title>Гигаворлд сайт</title>
-        <link rel="stylesheet" href="GigaWorld.css">
+        <link rel="stylesheet" href="гигаворлдксс.css">
     </head>
     <body>
         <div class="box"></div>
         <h2>Добро пожаловать на сайт Gigaworld'а!</h2>
-        <p class="skopirovat">gigaworld1488.aternos.me:49376</p>
-        <img class="лого" src="GigaWorld.jpg" width="60px" alt="Логотип Gigaworld">
+        <p class="skopirovat">ip: <i>gigaworld1488.aternos.me:49376</i></p>
+        <img class="лого" src="гигаворлдлого.png" width="60px" alt="Логотип Gigaworld">
         <input class="копп" type="text" value="gigaworld1488.aternos.me:49376" id="server-address" readonly>
         <button class="кнопкакопи" onclick="copyToClipboard()">Копируй</button>
         <h1 class="ckoro">Скоро будет ещё</h1>
-
+        <div class="prefxs"></div>
+        <h1 class="prefxstxt">префиксы</h1>
+        <div class="square"></div>
+        <div class="prefix1"></div>
+        <h1 class="prefix1txt">Игрок:</h1>
+        <h1 class="prefix1txt-1">обычный игрок </h1>
+        <h1 class="prefix1txt-2">с обычными </h1>
+        <h1 class="prefix1txt-3">возможностями</h1>
+        <div class="prefix2"></div>
+        <h1 class="prefix2txt-1">есть все </h1>
+        <h1 class="prefix2txt-2">  права        </h1>
+        <h1 class="prefix2txt-3"></h1>
+        <h1 class="prefix2txt">Админ:</h1>
+        <div class="prefxs3"></div>
+        <h1 class="prefix3txt">Вип:</h1>
+        <h1 class="prefix3txt-1">игрок</h1>
+        <h1 class="prefix3txt-2">но с возможностями</h1>
+        <h1 class="prefix3txt-3">/gamemode 0/1/2/3</h1>
+        
         <script>
             function copyToClipboard() {
                 const copyText = document.getElementById("server-address");
@@ -22,7 +40,7 @@
                 if (navigator.clipboard && window.isSecureContext) {
                     navigator.clipboard.writeText(copyText.value)
                         .then(() => {
-                            showNotification("Скопировано в буфер обмена!");
+                            showNotification("Скопировано, удачной игры!");
                 })
                 .catch(err => {
                     console.error('Ошибка при копировании через navigator.clipboard: ', err);
@@ -80,7 +98,6 @@
             font-size: 14px;
         `;
         document.body.appendChild(notification);
-
         // Автоматическое скрытие через 3 секунды
         setTimeout(() => {
             document.body.removeChild(notification);

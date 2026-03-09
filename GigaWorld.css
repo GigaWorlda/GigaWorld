@@ -71,3 +71,126 @@ body {
     font-size: 50px;
     background-size: 100px;
 }
+.square {
+    width: 1840px; height: 400px; 
+    background-color: rgb(10, 41, 4);
+    
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 5px  #001804 ;
+}
+.prefix1 {
+    width: 355px;
+    height: 355px;
+    background: #129439;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 1000px;
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    box-shadow: 0 0 5px 5px #000000;
+}
+.prefix1txt {
+    position: absolute;
+    top: 32%;
+    left: 8.5%;
+    color:#1a1d1a;
+}
+.prefix1txt-1 {
+    position: absolute;
+    top: 38%;
+    left:4.5%;
+}
+.prefix1txt-2 {
+    position: absolute;
+    top: 42%;
+    left:6%;
+}
+.prefix1txt-3 {
+    position: absolute;
+    top: 46%;
+    left: 4.5%;
+}
+.prefxs {
+     width: 100;
+    height: 10;
+    border-top: 400px solid #0e6b0e;
+    border-left: 800px solid transparent;
+    border-right: 800px solid transparent;
+    position: absolute;
+    top: 23%;
+    left: 6.5%;
+    
+    
+}
+.prefxstxt {
+    position: absolute;
+    left: 45%;
+    top: 22%;
+}
+.prefix2 {
+    width: 355px;
+    height: 355px;
+    background: #129439;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 1000px;
+    position: absolute;
+    top: 32%;
+    right: 2%;
+    box-shadow: 0 0 5px 5px #000000;
+}
+.prefix2txt {
+    position: absolute;
+    top: 32%;
+    right: 8.5%;
+    color:#1a1d1a;
+}
+.prefix2txt-1 {
+    position: absolute;
+    top: 38%;
+    right:8%;
+
+}
+.prefix2txt-2 {
+    position: absolute;
+    top: 42%;
+    right:9%;
+}
+.prefxs3 {
+    width: 355px;
+    height: 355px;
+    background: #129439;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 1000px;
+    position: absolute;
+    top: 32%;
+    right: 41.5%;
+    box-shadow: 0 0 5px 5px #000000;
+
+}
+.prefix3txt {
+    position: absolute;
+    top: 32%;
+    right: 49.2%;
+    color:#1a1d1a;
+}
+.prefix3txt-1 {
+     position: absolute;
+    top: 38%;
+    right:48.6%;
+}
+.prefix3txt-2 {
+    position: absolute;
+    top: 42%;
+    right:43%;
+}
+.prefix3txt-3 {
+    position: absolute;
+    top: 46%;
+    right: 44.5%;
+}
